@@ -20,5 +20,9 @@ wget -P /home/project/airflow/dags/assignment https://cf-courses-data.s3.us.clou
 ```bash
 cd /home/project/airflow/dags/finalassignment/staging
 ```
-4. Authored the DAG, ETL_tool_data.py
+4. Authored the DAG, ETL_tool_data.py. The DAG scripted comments and mentions what each task does.
 5. Summitted the DAG to Airflow and got it running.
+
+**Notes**: The file downloaded was tolldata.tgz
+It includes fileformats.txt, payment-data.txt, tollplaza-data.tsv, vehicle-data.csv.
+These files are being processed through ETL.
